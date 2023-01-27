@@ -1,6 +1,8 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
+
+import "https://raw.githubusercontent.com/yegender124001/OnlineQML/main/RedColorBox.qml"
 Window {
     width: 800
     color: "#000044"
