@@ -18,13 +18,6 @@ Window {
         x:50
         y:50
     }
-    Loader{
-        source: "https://raw.githubusercontent.com/yegender124001/OnlineQML/main/RedColorBox.qml"
-        width: 100
-        height: 100
-        x: 0
-        y: parent.height-height
-    }
 
     Button{
         text: "Next"
