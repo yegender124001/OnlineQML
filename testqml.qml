@@ -1,8 +1,6 @@
 import QtQuick 2.15
 import QtQuick.Window 2.15
 import QtQuick.Controls 2.15
-
-import "https://raw.githubusercontent.com/yegender124001/OnlineQML/main/RedColorBox.qml"
 Window {
     width: 800
     color: "#000044"
@@ -20,11 +18,12 @@ Window {
         x:50
         y:50
     }
-    RedColorBox{
+    Loader{
+        source: "https://raw.githubusercontent.com/yegender124001/OnlineQML/main/RedColorBox.qml"
         width: 100
         height: 100
-        x:0
-        y:parent.height-height
+        x: 0
+        y: parent.height-height
     }
 
     Button{
