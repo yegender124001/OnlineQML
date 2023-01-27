@@ -18,6 +18,13 @@ Window {
         x:50
         y:50
     }
+    RedColorBox{
+        width: 100
+        height: 100
+        x:0
+        y:parent.height-height
+    }
+
     Button{
         text: "Next"
         x:parent.width-width-50
